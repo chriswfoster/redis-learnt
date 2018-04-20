@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("http://cdn.ebaumsworld.com/2012/05/82564589/wtf.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute; 
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.itemflex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+}
+
+.items {
+  border: 12px solid blue;
+  margin-bottom: 2vh;
+  cursor: pointer;
+  min-width: 22px;
+  min-height: 12px;
+}
+
+.items:hover {
+  box-shadow: -4px -4px 16px 16px purple;
+}
+
+.items button {
+  border: none;
+  font-size: 4em;
+}
+
+input {
+  background-color: rgb(255, 0, 255);
+  height: 15vh;
+  font-size: 2em;
+  border: 3px dashed orange;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
